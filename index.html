@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodpanda Pakistan: Food Delivery & Restaurants Near You</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Business Account Banner -->
+    <div class="business-banner" id="business-banner">
+        <div class="container">
+            <div class="business-banner-content">
+                <img src="images/business-icon.svg" alt="Business" class="business-icon">
+                <p>Do you need a business account?</p>
+                <button class="btn-signup-now">SIGN UP NOW</button>
+                <button class="btn-close" id="close-banner"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="/" class="logo">
+                    <img src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg" alt="Foodpanda Logo">
+                    
+                </a>
+                <div class="nav-right">
+                    <a href="/login" class="btn-login">Log in</a>
+                    <a href="/signup" class="btn-signup">Sign up</a>
+                    <div class="language-selector">
+                        <i class="fas fa-globe"></i>
+                        <span>EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <a href="/cart" class="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Enjoy discounts on your first order</h1>
+                    <div class="address-input-container">
+                        <input type="text" placeholder="Enter your address" class="address-input">
+                        <button class="btn-locate">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Locate me
+                        </button>
+                        <button class="btn-find-food">Find food</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+    </section>
+    <div class="hero-image">
+        <img src="https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png?width=1264" alt="FoodPanda Mascot">
+    </div>
+
+    <!-- Food Preparation Section -->
+    <section class="food-prep-section">
+        <div class="container">
+            <h2 style="color: black;"><b>You prepare the food, we handle the rest</b></h2>
+            <div class="chef-image">
+                <img src="https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=1264&height=808.96" alt="Chef preparing food">
+            </div>
+        </div>
+    </section>
+
+    <!-- Cities Section -->
+    <section class="cities-section">
+        <div class="container">
+            <h2>Find us in these cities and many more!</h2>
+            <div class="cities-grid">
+                <div class="city-card">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Jb5usQVQBAUSR-gDGagwLXFO2j1jMV0b1MCxoB126pJ0Z4lJFFRmDcu4H8S-kn_wp5MK0yHwBVsZZo0q3J9PHxbsgDcj73UdN-sVXPKtz_b5pNe6zJ5jP1N9bSDX8uNyM_1GoeQ=w540-h312-n-k-no" alt="Karachi">
+                    <h3>Karachi</h3>
+                </div>
+                <div class="city-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shahi_Masjid_Lahore.jpg/960px-Shahi_Masjid_Lahore.jpg" alt="Lahore">
+                    <h3>Lahore</h3>
+                </div>
+                <div class="city-card">
+                    <img src="https://www.unesco.org/sites/default/files/2022-05/monument_islamabad.jpg" alt="Islamabad">
+                    <h3>Islamabad</h3>
+                </div>
+                <div class="city-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Sangni_Fort_-2.JPG" alt="Rawalpindi">
+                    <h3>Rawalpindi</h3>
+                </div>
+                <div class="city-card">
+                    <img src="https://pakistantourntravel.com/wp-content/uploads/2024/08/faisalabad.webp" alt="Faisalabad">
+                    <h3>Faisalabad</h3>
+                </div>
+                <div class="city-card">
+                    <img src="https://www.vouch365.com/blog/wp-content/uploads/2024/04/featured-image-2.jpg" alt="Hyderabad">
+                    <h3>Hyderabad</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <h2>Explore by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="https://i.tribune.com.pk/media/images/1393024-cexzjtxkaiwwi-1493123788/1393024-cexzjtxkaiwwi-1493123788.jpg" alt="Burgers">
+                    </div>
+                    <h3>Burgers</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="https://images.ctfassets.net/j8tkpy1gjhi5/5OvVmigx6VIUsyoKz1EHUs/b8173b7dcfbd6da341ce11bcebfa86ea/Salami-pizza-hero.jpg" alt="Pizza">
+                    </div>
+                    <h3>Pizza</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="https://images.getrecipekit.com/20231014063236-andy-20cooks-20-20mutton-20biryani-20lamb.jpg?aspect_ratio=4:3&quality=90&" alt="Biryani">
+                    </div>
+                    <h3>Biryani</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts.jpg" alt="Desserts">
+                    </div>
+                    <h3>Desserts</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="https://www.southernliving.com/thmb/Nr_TIEuEu9sHm2sRvcaYTDaNYbs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Breakfast_Sandwich_001-b07f371cd3044df4ab7bf664052c2267.jpg" alt="Breakfast">
+                    </div>
+                    <h3>Breakfast</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/healthy-groceries-bag-66eaef810acf6.jpg?crop=0.7501082719792118xw:1xh;center,top&resize=1200:*" alt="Groceries">
+                    </div>
+                    <h3>Groceries</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Restaurants Section -->
+    <section class="restaurants-section">
+        <div class="container">
+            <h2>Popular Restaurants</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://pngimg.com/d/kfc_food_PNG51.png" alt="KFC">
+                        <span class="delivery-time">25-35 min</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>KFC</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.2</span>
+                        </div>
+                        <p class="cuisine">Fried Chicken, Fast Food</p>
+                        <p class="delivery-fee">Rs. 100 delivery fee</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://www.chowhound.com/img/gallery/why-mcdonalds-vegan-burger-failed-in-america/intro-1732802016.jpg" alt="McDonald's">
+                        <span class="delivery-time">20-30 min</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>McDonald's</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.0</span>
+                        </div>
+                        <p class="cuisine">Burgers, Fast Food</p>
+                        <p class="delivery-fee">Rs. 80 delivery fee</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4gyOU3w447bzwLDOIifSMc1vmYG4Bwea8NA&s" alt="Pizza Hut">
+                        <span class="delivery-time">30-40 min</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Pizza Hut</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.3</span>
+                        </div>
+                        <p class="cuisine">Pizza, Italian</p>
+                        <p class="delivery-fee">Rs. 120 delivery fee</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://www.foodbusinessnews.net/ext/resources/2022/01/24/SubwayNewSandwichesLead.png?height=667&t=1643034678&width=1080" alt="Subway">
+                        <span class="delivery-time">25-35 min</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Subway</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.1</span>
+                        </div>
+                        <p class="cuisine">Sandwiches, Healthy</p>
+                        <p class="delivery-fee">Rs. 90 delivery fee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <a href="/restaurants" class="btn-view-all">View All Restaurants</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section -->
+    <section class="download-app-section">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2>Download the foodpanda app</h2>
+                    <p>Order from your favorite restaurants and track your delivery in real-time.</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-button">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4GHxWR1R2b5i4W_-6OERHtP1rSQpw-0YdQ&s" alt="App Store">
+                        </a>
+                        <a href="#" class="app-button">
+                            <img src="https://www.huaweicentral.com/wp-content/uploads/2022/07/play-store-new-logo-4.jpg" alt="Google Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="app-image">
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/87/49/f0874912-bf15-ff4c-e9f1-d93f4d1adb29/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/1200x630wa.png" alt="Foodpanda App">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cuisines Section -->
+    <section class="cuisines-section">
+        <div class="container">
+            <h2>Popular Cuisines</h2>
+            <div class="cuisines-list">
+                <a href="#" class="cuisine-tag">Pakistani</a>
+                <a href="#" class="cuisine-tag">Fast Food</a>
+                <a href="#" class="cuisine-tag">Pizza</a>
+                <a href="#" class="cuisine-tag">Burgers</a>
+                <a href="#" class="cuisine-tag">Chinese</a>
+                <a href="#" class="cuisine-tag">Italian</a>
+                <a href="#" class="cuisine-tag">Desserts</a>
+                <a href="#" class="cuisine-tag">Indian</a>
+                <a href="#" class="cuisine-tag">BBQ</a>
+                <a href="#" class="cuisine-tag">Biryani</a>
+                <a href="#" class="cuisine-tag">Breakfast</a>
+                <a href="#" class="cuisine-tag">Sandwiches</a>
+                <a href="#" class="cuisine-tag">Seafood</a>
+                <a href="#" class="cuisine-tag">Vegetarian</a>
+                <a href="#" class="cuisine-tag">Healthy</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3>foodpanda</h3>
+                    <p>© 2023 foodpanda</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>About foodpanda</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Pandapro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>For Restaurants</h3>
+                    <ul>
+                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="#">Restaurant Dashboard</a></li>
+                        <li><a href="#">Food Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Get Help</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Delivery Locations</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2023 foodpanda. All rights reserved by CodeX.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

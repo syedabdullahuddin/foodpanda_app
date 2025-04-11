@@ -1,0 +1,747 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* Business Banner */
+.business-banner {
+    background-color: #d70f64;
+    color: white;
+    padding: 12px 0;
+    position: relative;
+}
+
+.business-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.btn-signup-now {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-signup-now:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-close {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Navigation */
+.main-nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #d70f64;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 8px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.btn-login {
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-signup {
+    background-color: #d70f64;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 14px;
+    margin-right: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-signup:hover {
+    background-color: #c00c5a;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.language-selector i {
+    margin-right: 5px;
+}
+
+.language-selector .fa-chevron-down {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.cart-icon {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.address-input-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    max-width: 500px;
+}
+
+.address-input {
+    flex: 1;
+    border: none;
+    padding: 12px 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-locate {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #d70f64;
+    padding: 0 15px;
+    font-size: 14px;
+    border-right: 1px solid #e8e8e8;
+}
+
+.btn-locate i {
+    margin-right: 5px;
+}
+
+.btn-find-food {
+    background-color: #d70f64;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-find-food:hover {
+    background-color: #c00c5a;
+}
+
+.hero-image {
+    width: 600px;
+    margin-left: 1000px;
+    height: 650px;
+    margin-top: -200px;
+    position: relative;
+    
+}
+
+/* .hero-image img {
+    max-height: 750px;
+} */
+
+/* Food Preparation Section */
+.food-prep-section {
+    padding: 60px 0;
+    position: relative;
+    margin-top: -300px;
+    
+}
+
+.food-prep-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.chef-image {
+    width: 1465px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-left: -200px;
+}
+
+.chef-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Cities Section */
+.cities-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.cities-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.city-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.city-card:hover {
+    transform: translateY(-5px);
+}
+
+.city-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.city-card h3 {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Categories Section */
+.categories-section {
+    padding: 60px 0;
+}
+
+.categories-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.category-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.category-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.category-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Restaurants Section */
+.restaurants-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.restaurants-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.restaurants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.restaurant-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+}
+
+.restaurant-image {
+    position: relative;
+}
+
+.restaurant-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.delivery-time {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.restaurant-info {
+    padding: 15px;
+}
+
+.restaurant-info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.rating i {
+    color: #ffc043;
+    margin-right: 5px;
+}
+
+.cuisine {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.delivery-fee {
+    color: #666;
+    font-size: 14px;
+}
+
+.view-all-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-view-all {
+    background-color: #d70f64;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btn-view-all:hover {
+    background-color: #c00c5a;
+}
+
+/* Download App Section */
+.download-app-section {
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+
+.download-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-text {
+    width: 50%;
+}
+
+.download-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.download-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.app-button img {
+    height: 40px;
+}
+
+.app-image {
+    width: 40%;
+}
+
+.app-image img {
+    max-height: 400px;
+}
+
+/* Cuisines Section */
+.cuisines-section {
+    padding: 60px 0;
+}
+
+.cuisines-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cuisines-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cuisine-tag {
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.cuisine-tag:hover {
+    background-color: #d70f64;
+    color: white;
+    border-color: #d70f64;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #d70f6e;
+    color: black;
+    padding: 60px 0 30px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #444;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #d70f64;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #aaa;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-methods img {
+    height: 24px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-text, .hero-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-bottom: 30px;
+    }
+
+    .address-input-container {
+        margin: 0 auto;
+    }
+
+    .download-content {
+        flex-direction: column;
+    }
+
+    .download-text, .app-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .download-text {
+        margin-bottom: 30px;
+    }
+
+    .app-buttons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .business-banner-content p {
+        display: none;
+    }
+
+    .btn-signup-now {
+        margin-left: 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .address-input-container {
+        flex-wrap: wrap;
+    }
+
+    .address-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn-locate {
+        border-right: none;
+        padding: 8px 0;
+        width: 50%;
+    }
+
+    .btn-find-food {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .food-prep-section h2,
+    .cities-section h2,
+    .categories-section h2,
+    .restaurants-section h2,
+    .download-text h2,
+    .cuisines-section h2 {
+        font-size: 24px;
+    }
+
+    .cuisines-list {
+        justify-content: flex-start;
+    }
+}
